@@ -1,0 +1,25 @@
+@charset "UTF8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+}
+
+#trocar {
+    padding: 5px 10px;
+    font-size: 1.5vw;
+}
