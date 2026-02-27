@@ -3,14 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style.css">
     <title>Troca Imagem</title>
 </head>
 <body>
 
-    <img id="imagem" src="img/donatello.jpg" alt="">
-    <button id="trocar">Trocar</button>
     
+    <div>
+        <img id="imagem" src="img/2k3Splinter.webp" width="400px" height="600px">
+        <button onclick="trocarImagem()" id="trocar-imagem">Trocar</button>
+    </div>
+
+    <div class="div-texto">
+        <p id="retorno"></p>
+        <input id="entrada" type="text" placeholder="digite aqui">
+        <button onclick="salvarTexto()" id="gravar">Salvar</button>
+        <ol id="lista"></ol>
+    </div>
 </body>
 </html>
